@@ -16,7 +16,8 @@ setuptools.setup(
     url="https://github.com/bohdan-s/SungrowModbusWebClient",
     packages=setuptools.find_packages(),
     install_requires=[
-        'pymodbus>=2.3.0',
+        "aiohttp",
+        'pymodbus>=3,<4',
         'websocket-client>=1.2.1',
     ],
     classifiers=[
