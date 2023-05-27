@@ -18,6 +18,7 @@ setuptools.setup(
     install_requires=[
         'pymodbus>=2.3.0,<3',
         'websocket-client>=1.2.1',
+        'requests',
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
